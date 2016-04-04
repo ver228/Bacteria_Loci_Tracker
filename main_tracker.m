@@ -2,8 +2,11 @@ clear all
 addpath(genpath(fullfile(pwd, 'Main_Code')));
 
 %% INPUT PARAMETERS
-track_results_dir = './Example/Tracking_Results/'; %where the results of the tracking analysis are stored?
-data_base_file = './Example/database.csv'; %database file with the data from the videos
+%where the results of the tracking analysis are stored?
+
+track_results_dir = './Example/Tracking_Results/'; 
+
+%database file with the data from the videos
 %*Notes: the database must contain the following columns:
 %name -> Experiments name, all the videos corresponding to the same condition must have the same name.
 %delta_time	-> Time between frames.
@@ -13,6 +16,8 @@ data_base_file = './Example/database.csv'; %database file with the data from the
 %it is very important that the headers are spelled correctly in the
 %database. I use the header name (not the column position) to extract the
 %information.
+data_base_file = './Example/database.csv'; 
+
 
 expected_number_of_frames = 40; %what is the number of frames expected, to filter trajectories that are to short and likely to be spurious
 
