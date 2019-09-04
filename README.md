@@ -2,7 +2,7 @@
 Bacterial chromosmal foci tracker.
 
 Code used in:
-
+```
 @article{javer2013short,
   title={Short-time movement of E. coli chromosomal loci depends on coordinate and subcellular localization},
   author={Javer, Avelino and Long, Zhicheng and Nugent, Eileen and Grisi, Marco and Siriwatwetchakul, Kamin and Dorfman, Kevin D and Cicuta, Pietro and Lagomarsino, Marco Cosentino},
@@ -22,3 +22,4 @@ Code used in:
   year={2014},
   publisher={Nature Publishing Group}
 }
+```
